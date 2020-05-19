@@ -1,0 +1,30 @@
+.user {
+    display: flex;
+    align-items: center;
+    margin: 0 auto 12px auto;
+  }
+  
+  .user:last-child {
+    margin-bottom: 0;
+  }
+  
+  .avatar {
+    margin-top: 1rem;
+    height: 20rem;
+    margin-bottom: 5rem;
+  }
+  
+  .description {
+    flex: 1;
+    margin-left: 18px;
+    padding: 12px;
+  }
+  
+  .username {
+    margin: 0 0 4px 0;
+    padding: 0;
+  }
+  
+  .excerpt {
+    margin: 0;
+  }
