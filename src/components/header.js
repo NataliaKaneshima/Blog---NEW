@@ -35,7 +35,7 @@ const Header = () => {
                         <Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/about">Quem somos</Link>
                     </li>
                      <li>
-                        <Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/proble">Problemas</Link>
+                        <Link className={headerStyle.navItem} activeClassName={headerStyle.activeNavItem} to="/proble">Agradecimentos</Link>
                      </li>
                 </ul>
             </nav>      
