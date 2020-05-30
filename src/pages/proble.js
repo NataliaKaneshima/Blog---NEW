@@ -25,10 +25,6 @@ const Problema = () => {
             </ul>
         </p>
 
-        <h3>Comprando o dominio e seção de comentarios</h3>
-        <p>
-            A compra do dominio não foi utilizado nenhum tipo de pesquisa. A seção de comentarios foi utilizado as informações do site oficial do <a href="https://disqus.com/" target="_blank" rel="noopener noreferrer">Disqus</a>.
-        </p>
         </Layout>
     
     )

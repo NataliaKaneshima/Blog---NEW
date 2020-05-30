@@ -37,13 +37,13 @@ const IndexPage = () => {
                     avatar="https://download.seaicons.com/icons/martz90/hex/512/css-3-icon.png"
                 />
                 <User 
+                avatar="https://pbs.twimg.com/profile_images/1150888239475122176/b2lWK7c0_400x400.png"
+                />
+                <User 
                 avatar="https://miro.medium.com/max/325/0*tTvqxZBtyiDw3vVw.png"
                 />
                 <User 
                 avatar="https://avatars0.githubusercontent.com/u/9919?s=280&v=4"
-                />
-                <User 
-                avatar="https://mail.google.com/mail/u/1?ui=2&ik=d13a797eb9&attid=0.7&permmsgid=msg-f:1667071014585810025&th=1722a04157bcbc69&view=att&disp=safe&realattid=f_kad3avz111"
                 />
                 <User 
                 avatar="https://mail.google.com/mail/u/1?ui=2&ik=d13a797eb9&attid=0.9&permmsgid=msg-f:1667071014585810025&th=1722a04157bcbc69&view=att&disp=safe&realattid=f_kad3aw0o17"
