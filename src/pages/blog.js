@@ -25,7 +25,7 @@ const Blog = () => {
     return (
         <Layout>
             <h2>Blog</h2>
-            <h3></h3>
+            <p><a href="https://github.com/NataliaKaneshima/Blog---NEW" target="_blank" rel="noopener noreferrer">Repositório do GitHub</a></p>
             <p>
                 Esse projeto tem como objetivo montar um site com programas que podem ser encontrados em: [URL].
                 Tentamos utilizar as ferramentas “Next.js”, o “Gatsby” e o "Hugo", e nós nos decidimos utilizar o "Gatsby", uma ferramenta que monta sites estáticos, o qual tivemos maior facilidade de utilizar.
