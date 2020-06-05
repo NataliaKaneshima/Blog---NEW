@@ -2,9 +2,9 @@ import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import '../style/index.scss'
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
-const Blog = () => {
-    const data = useStaticQuery(graphql`
+export const data = graphql`
         query {
             allMarkdownRemark {
                 edges {
@@ -20,7 +20,18 @@ const Blog = () => {
                 }
             }
         }
-    `)
+    `
+
+const Blog = props => {
+
+    console.log(props)
+
+    let disqusConfig = {
+        // url: `${config.siteUrl+location.pathname}`,
+        // identifier: props.data.allMarkdownRemark.edges.node.fields.slug,
+        // title: props.data.allMarkdownRemark.edges.node.frontmatter.title,
+    }
+
 
     return (
         <Layout>
@@ -37,7 +48,9 @@ const Blog = () => {
             <p>
                 Nós utilizamos o EC2(Elastic Compute Cloud) da AWS(Amazon Web Services). Criando uma nova instância utilizado os servidores da AWS, desenvolvemos uma máquina virtual para acesar o site por um endereço público
             </p>
+            <Disqus config={disqusConfig} />
         </Layout>
     )
+
 }
 export default Blog

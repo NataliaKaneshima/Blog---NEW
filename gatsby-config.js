@@ -2,10 +2,16 @@ module.exports = {
   siteMetadata: {
     title: "NEW",
     author: "Natalia Kaneshima, Rebeca Ito, Wellington Endo",
- 
+
   },
 
     plugins: [
+      {
+        resolve: `gatsby-plugin-disqus`,
+        options: {
+          shortname: `newblog-online`
+        }
+      },
       'gatsby-plugin-sass',
       {
         resolve: 'gatsby-source-filesystem',
