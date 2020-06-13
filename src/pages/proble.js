@@ -17,7 +17,7 @@ const Problema = () => {
 
         <h3>Colocando um site na AWS</h3>
         <p>
-            Para ter feito essa parte utilizamos os videos e a ajudas de colegas:
+            Para ter feito essa parte utilizamos os vídeos e a ajudas de colegas:
             <ul>
                 <li><a href="https://youtu.be/QVouMIlyaJ8" target="_blank" rel="noopener noreferrer">Como abrir portas para instâncias do Amazon EC2</a></li>
                 <li><a href="https://youtu.be/HR2UlqK4_Nw" target="_blank" rel="noopener noreferrer">Aula Prática - Criando um servidor linux na AWS</a></li>
