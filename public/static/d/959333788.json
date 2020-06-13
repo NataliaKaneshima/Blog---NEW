@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"NEW","date":"2020-04-19"},"fields":{"slug":"gatsby"}}},{"node":{"frontmatter":{"title":"React","date":"2020-04-19"},"fields":{"slug":"react"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"React","date":"2020-04-19"},"fields":{"slug":"react"}}},{"node":{"frontmatter":{"title":"StacicGen","date":"2020-04-19"},"fields":{"slug":"gatsby"}}},{"node":{"frontmatter":{"title":"Armazenando na nuvem","date":"2020-06-13"},"fields":{"slug":"nuvem"}}}]}}}
