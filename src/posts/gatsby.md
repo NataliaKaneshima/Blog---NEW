@@ -17,5 +17,5 @@ Nós decidimos usar a função "Live Share" de Visual Studio Code, onde um usuá
 Antes instalamos o Gatsby, pvm e o npm para conseguir mexer no site pelo terminal. Depois, instalamos o gatsby-cli. Para sim criarmos uma página com "gatsby new hello-world 'link do repositório'" e "gatsby develop" para começar a rodar o programa.
 </p>
 <p>
-No Visual Studio Code instalamos gatsby-sass para conseguir editar certas coisas do Gatsby (que sem eles não seria possível) e digitando "npm run develop" no terminal de Visual Studio Code rodava o site para conferis se conseguimos alterar o site, a gente foi conferindo pelo "http://localhost:8000".
+No Visual Studio Code instalamos gatsby-sass para conseguir editar certas coisas do Gatsby (que sem eles não seria possível) e digitando "npm run develop" no terminal de Visual Studio Code rodava o site para conferir se conseguimos alterar o site, a gente foi conferindo pelo "http://localhost:8000".
 </p>
