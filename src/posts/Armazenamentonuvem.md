@@ -26,7 +26,7 @@ date: "2020-06-13"
 7. Colocar um conteúdo na pasta /var/www/html (caso já não tenha feito).
     1. Clone o repositório para o terminal da máquina.
         <p><code>$ git clone (repositório)</code></p>
-    2. Passe as pastas que contem os arquivos um HTML para a pasta /var/www/html.
-        <p><code>$ rsync -r blogpi/pastacomoshtmls/. var/www/html</code></p>
+    2. Passe as pastas que contem os arquivos um HTML para a pasta /var/www/html. 
+        <p><code>$ rsync -r repositorio/pastacomoshtmls/. var/www/html</code></p>
 
 <p>Por último, tivemos que criar/arrumar os Security Groups para permitir acesso às outras máquinas, como o HTTPS (onde ele libera o site para todos) e o SSH (autorizado pela chave que é gerado ao criar a instância da máquina).</p>
